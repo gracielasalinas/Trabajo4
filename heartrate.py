@@ -6,4 +6,5 @@ import opencv as cv
 a=1
 b=1
 
-c=a+b
+c=a*b/2
+
