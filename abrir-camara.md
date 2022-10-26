@@ -7,8 +7,6 @@ salida = cv2.VideoWriter('webCam.avi', cv2.VideoWriter_fourcc(*'XVID'), 10, (640
 while (True):
     ret, frame = capture.read()
     cv2.imshow('frame',frame)
-    #Usar write para GUARDAR el video
-    salida.write(frame)
     if (cv2.waitKey(1) == ord('s')):
         break
 
